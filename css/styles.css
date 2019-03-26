@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	margin: 50px;
+}
+
+a {
+	display: inline-grid;
+	color: black;
+	text-decoration: none;
+}
+
+p {
+	text-align: center;
+	font-size: 20pt;
+}
+
+.gallerypic {
+	border-radius: 360px;
+	padding: 50px;
+}
+
+.gallerypic:hover {
+	transform: scale(1.2);
+	transition-duration: 0.75s;
+}
+
